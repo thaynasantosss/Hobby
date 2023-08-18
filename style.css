@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Patrick+Hand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#hobby{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cookie', Arial, Helvetica, sans-serif;
+    color: rgb(49, 94, 218);
+    background-color: rgb(133, 162, 241);
+    height: 450px;
+}
+#hobby a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 65px;
+}
+#hobby a:hover{
+    color: rgb(49, 94, 218);
+
+}
+#container{
+    display: flex;
+    margin: 70px;
+}
+
+.caixa{
+    border: 2.5px solid  rgb(49, 94, 218);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Patrick Hand', sans-serif;
+}
+.caixa h1{
+    text-align: center;
+    font-size: 46px;
+}
