@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Patrick+Hand&display=swap');
+
+#imagensComer{
+    display: flex;
+}
+
+#imagensComer img{
+    height: 320px;
+}
+
+
+.caixa{
+    border: 2.5px solid  rgb(49, 94, 218);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Patrick Hand', sans-serif;
+}
