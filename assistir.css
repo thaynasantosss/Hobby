@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Patrick+Hand&display=swap');
 
-#imagensComer{
+#imagensAssistir{
     display: flex;
     overflow: hidden;
     width: 100%;
 }
 
-#imagensComer img{
-    height: 320px;
+#imagensAssistir img{
+    height: 280px;
     width: 100%;
 }
 
 .caixa{
-    border: 2.5px solid  rgb(175, 122, 72);
+    border: 2.5px solid  #5e08b1;
     border-radius: 10px;
     margin: 20px;
     padding: 20px;
@@ -21,18 +21,19 @@
 }
 .caixa h1{
     font-size: 60px;
-    color: rgb(175, 122, 72);
+    color: #b880e1;
     margin: 0;
 }
 h1 a{
     width: 100%;
     text-decoration: none;
-    color: rgb(221, 189, 129);
+    color: #b880e1;
     font-size: 35px;
     font-family: 'Cookie', Arial, Helvetica, sans-serif;
 }
-#textEsquerda{
-    text-align: end;
+#textoDois{
+    display: flex;
+    justify-content: space-between;
 }
 h1 a:hover{
     color:  rgb(175, 122, 72);;
